@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.2.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="5.0.3" />
+    <PackageReference Include="MiniProfiler.Shared" Version="4.2.22" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DCG.Express.Tracking.DataAccessEFCore\DCG.Express.Tracking.DataAccessEFCore.csproj" />
+    <ProjectReference Include="..\DCG.Express.Tracking.Interface\DCG.Express.Tracking.Interface.csproj" />
+    <ProjectReference Include="..\DCG.Express.Tracking.Services\DCG.Express.Tracking.Services.csproj" />
+  </ItemGroup>
+
+</Project>

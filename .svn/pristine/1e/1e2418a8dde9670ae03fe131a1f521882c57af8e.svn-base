@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCG.Express.Tracking", "DCG.Express.Tracking\DCG.Express.Tracking.csproj", "{C7346B76-60AA-4BC0-A8CE-F919509834AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCG.Express.Tracking.Services", "DCG.Express.Tracking.Services\DCG.Express.Tracking.Services.csproj", "{84B03D02-9DB5-402A-8150-6ED236B463E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCG.Express.Tracking.Interface", "DCG.Express.Tracking.Interface\DCG.Express.Tracking.Interface.csproj", "{4F4F2EC0-7D01-459D-862B-9287BBB7814E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCG.Express.Tracking.Common", "DCG.Express.Tracking.Common\DCG.Express.Tracking.Common.csproj", "{7DCF0B17-4365-4DBD-86B1-0748D8A52A2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCG.Express.Tracking.DataAccessEFCore", "DCG.Express.Tracking.DataAccessEFCore\DCG.Express.Tracking.DataAccessEFCore.csproj", "{E79471D1-0675-4311-9D97-D9214C620520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCG.Express.Tracking.Models", "DCG.Express.Tracking.Models\DCG.Express.Tracking.Models.csproj", "{2C4ABEB5-8353-4C0C-9901-5197F6288EDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7346B76-60AA-4BC0-A8CE-F919509834AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7346B76-60AA-4BC0-A8CE-F919509834AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7346B76-60AA-4BC0-A8CE-F919509834AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7346B76-60AA-4BC0-A8CE-F919509834AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84B03D02-9DB5-402A-8150-6ED236B463E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B03D02-9DB5-402A-8150-6ED236B463E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B03D02-9DB5-402A-8150-6ED236B463E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B03D02-9DB5-402A-8150-6ED236B463E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F4F2EC0-7D01-459D-862B-9287BBB7814E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F4F2EC0-7D01-459D-862B-9287BBB7814E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F4F2EC0-7D01-459D-862B-9287BBB7814E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F4F2EC0-7D01-459D-862B-9287BBB7814E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DCF0B17-4365-4DBD-86B1-0748D8A52A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DCF0B17-4365-4DBD-86B1-0748D8A52A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DCF0B17-4365-4DBD-86B1-0748D8A52A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DCF0B17-4365-4DBD-86B1-0748D8A52A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E79471D1-0675-4311-9D97-D9214C620520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E79471D1-0675-4311-9D97-D9214C620520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E79471D1-0675-4311-9D97-D9214C620520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E79471D1-0675-4311-9D97-D9214C620520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C4ABEB5-8353-4C0C-9901-5197F6288EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4ABEB5-8353-4C0C-9901-5197F6288EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4ABEB5-8353-4C0C-9901-5197F6288EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4ABEB5-8353-4C0C-9901-5197F6288EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {627C6279-E5CE-443F-84D3-E390A506BA56}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DCG.Express.Tracking.Models/1.0.0": {
+        "runtime": {
+          "DCG.Express.Tracking.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DCG.Express.Tracking.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
